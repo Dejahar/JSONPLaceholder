@@ -1,0 +1,318 @@
+{
+	"info": {
+		"_postman_id": "458afc0a-4793-4952-8eff-295eaf8b6e02",
+		"name": "Assembler School",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dummy Rest API",
+			"item": [
+				{
+					"name": "POST create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"test\",\r\n    \"salary\": \"123\",\r\n    \"age\": \"19\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "my-json-server.typicode.com/user/repo/posts/1",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"user",
+								"repo",
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dummy.restapiexample.com/api/v1/employees",
+							"protocol": "https",
+							"host": [
+								"dummy",
+								"restapiexample",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET employee",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dummy.restapiexample.com/api/v1/employee/10",
+							"protocol": "https",
+							"host": [
+								"dummy",
+								"restapiexample",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"test\",\r\n    \"salary\": \"123\",\r\n    \"age\": \"19\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dummy.restapiexample.com/api/v1/update/21",
+							"protocol": "https",
+							"host": [
+								"dummy",
+								"restapiexample",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"update",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://dummy.restapiexample.com/api/v1/delete/2",
+							"protocol": "https",
+							"host": [
+								"dummy",
+								"restapiexample",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"delete",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "JSONPLaceholder",
+			"item": [
+				{
+					"name": "GET all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://my-json-server.typicode.com/dejahar/JSONPLaceholder/posts",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"dejahar",
+								"JSONPLaceholder",
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET post",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://my-json-server.typicode.com/dejahar/JSONPLaceholder/posts?id=2",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"dejahar",
+								"JSONPLaceholder",
+								"posts"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"title\": \"foo\",\"body\": \"bar\",\"userId\": 1}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://my-json-server.typicode.com/dejahar/JSONPLaceholder/posts",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"dejahar",
+								"JSONPLaceholder",
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"id\": 1, \"title\": \"foo\",\"body\": \"bar\",\"userId\": 1}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://my-json-server.typicode.com/dejahar/JSONPLaceholder/posts/1",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"dejahar",
+								"JSONPLaceholder",
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"title\": \"foo\",\"body\": \"bar\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://my-json-server.typicode.com/dejahar/JSONPLaceholder/posts/2",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"dejahar",
+								"JSONPLaceholder",
+								"posts",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://my-json-server.typicode.com/dejahar/JSONPLaceholder/posts/2",
+							"protocol": "https",
+							"host": [
+								"my-json-server",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"dejahar",
+								"JSONPLaceholder",
+								"posts",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
